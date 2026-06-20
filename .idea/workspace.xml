@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27565b87-213b-4990-894a-6e8c6e05b5d1" name="Changes" comment="Adding classes generated from StarUML">
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectMountainShooter.iml" beforeDir="false" />
+    <list default="true" id="27565b87-213b-4990-894a-6e8c6e05b5d1" name="Changes" comment="Creating main loop&#10;Connecting menu and game classes">
+      <change afterPath="$PROJECT_DIR$/code/Cons.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
@@ -47,8 +47,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.game.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.menu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -248,7 +251,7 @@
       <updated>1781833540365</updated>
       <workItem from="1781833543797" duration="279000" />
       <workItem from="1781833854159" duration="489000" />
-      <workItem from="1781917261851" duration="1498000" />
+      <workItem from="1781917261851" duration="8258000" />
     </task>
     <task id="LOCAL-00001" summary="Adding classes generated from StarUML">
       <option name="closed" value="true" />
@@ -274,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781833880987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating main loop&#10;Connecting menu and game classes">
+      <option name="closed" value="true" />
+      <created>1781918904237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781918904237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,9 +293,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding classes generated from StarUML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding classes generated from StarUML" />
+    <MESSAGE value="Creating main loop&#10;Connecting menu and game classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating main loop&#10;Connecting menu and game classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectMountainShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1781918097648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectMountainShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1781925403642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectMountainShooter$game.coverage" NAME="game Coverage Results" MODIFIED="1781920175006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ProjectMountainShooter$menu.coverage" NAME="menu Coverage Results" MODIFIED="1781925217176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>
