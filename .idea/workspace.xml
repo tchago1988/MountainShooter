@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27565b87-213b-4990-894a-6e8c6e05b5d1" name="Changes" comment="Changing menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax">
+    <list default="true" id="27565b87-213b-4990-894a-6e8c6e05b5d1" name="Changes" comment="Fixing imports news in Level.py file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Cons.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Cons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Level.executor&quot;: &quot;Run&quot;,
     &quot;Python.game.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.menu.executor&quot;: &quot;Run&quot;,
@@ -258,7 +260,8 @@
       <workItem from="1781833854159" duration="489000" />
       <workItem from="1781917261851" duration="8404000" />
       <workItem from="1782090217952" duration="8527000" />
-      <workItem from="1782176201479" duration="2846000" />
+      <workItem from="1782176201479" duration="3334000" />
+      <workItem from="1782256288666" duration="5201000" />
     </task>
     <task id="LOCAL-00001" summary="Adding classes generated from StarUML">
       <option name="closed" value="true" />
@@ -316,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782098726711</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixing imports news in Level.py file">
+      <option name="closed" value="true" />
+      <created>1782179315703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1782179315703</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,11 +339,13 @@
     <MESSAGE value="Creating asset folder&#10;Insert all asset&#10;Creating the menu: background, sound and fonts&#10;Creating the const file" />
     <MESSAGE value="Changing menu" />
     <MESSAGE value="Changing menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing menu interations&#10;Creating ABC class&#10;Creating Factory&#10;Level 1 Bg implementation: parallax" />
+    <MESSAGE value="Fixing imports news in Level.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing imports news in Level.py file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectMountainShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1782178701468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectMountainShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1782261284922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectMountainShooter$game.coverage" NAME="game Coverage Results" MODIFIED="1781920175006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/ProjectMountainShooter$menu.coverage" NAME="menu Coverage Results" MODIFIED="1782091917404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ProjectMountainShooter$Level.coverage" NAME="Level Coverage Results" MODIFIED="1782179118865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>
